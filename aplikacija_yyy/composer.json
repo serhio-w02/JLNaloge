@@ -1,0 +1,32 @@
+{
+    "name": "serhion/comptest01",
+    "description": "moj prvi projekt",
+    "type": "project",
+    "license": "BSD 2",
+    "authors": [
+        {
+            "name": "ddemo",
+            "email": "ddemo@github.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://gitlab.vegova.si/SerhioN/comptest01.git"
+        }
+    ],
+    "minimum-stability": "dev",
+	"require": {
+        "php": ">=7.1.0",
+        "fzaninotto/faker": "^1.9@dev",
+        "symfony/var-dumper": "^4.3@dev",
+        "view-components/grids": "dev-master",
+        "setasign/fpdi-tcpdf": "dev-master",
+		"smalot/pdfparser": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mojpak\\": "src/mojpak"
+        }
+    }
+}
