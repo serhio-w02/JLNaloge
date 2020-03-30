@@ -1,0 +1,34 @@
+1. Mapo "prijave" prekopirajte v "/xampp/htdocs/"
+
+1. Zaženite strežnika Apache in MySQL (XAMPP)
+
+2. V phpMyAdmin ustvarite bazo imenovano "prijave"
+
+3. Uvozite skripto "prijave.sql" (ta se nahaja v mapi "baza")
+
+
+
+(4.) Za pošiljanje e-pošte je potrebno spremeniti konfiguracijo XAMPP-a.
+
+prekopirajte datoteki "php.ini" in "sendmail.ini", ki se nahajata v mapi "config"
+in z njima povozite obstojeèi .ini datoteki, ki se nahajata v:
+	/xampp/sendmail/
+	/xampp/php/
+
+
+5. Pojdite na "localhost/prijave/"	  
+
+
+
+
+Gesla vseh obstojeèih uporabnikov v bazi so "geslo".
+
+
+Vpis v priviligiran uporabniški raèun:
+	user: "admin"
+	password: "geslo"
+
+
+Vpis v nepriviligiran uporabniški raèun: 
+	user: "michael128"
+	password: "geslo"

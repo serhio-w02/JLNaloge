@@ -1,0 +1,107 @@
+
+	button {
+		background-color: #4CAF50; /* Green */
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: block;
+		font-size: 16px;
+		float: center;
+		border-radius: 3px;
+	}
+
+	button:hover {
+		background-color: green;
+	}
+
+	div, form, input {
+		align: center;
+		margin: 0 auto;
+		width: 300px;
+	}
+
+	input[type=text], input[type=password], input[type=number] {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+	}
+
+	button {
+		background-color: #4CAF50;
+		color: white;
+		padding: 14px 20px;
+		margin: 8px 0;
+		border: none;
+		cursor: pointer;
+		width: 100%;
+	}
+
+	.cancelbtn {
+		width: auto;
+		padding: 10px 18px;
+		background-color: #f44336;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.container {
+		padding: 16px;
+	}
+
+	span.psw {
+		float: right;
+		margin-top: -35px;
+	}
+
+	.modal {
+		display: none; 
+		position: fixed; 
+		z-index: 1; 
+		left: 0;
+		top: 0;
+		width: 100%; 
+		height: 100%; 
+		overflow: auto; 
+		background-color: rgb(0,0,0); 
+		background-color: rgba(0,0,0,0.4); 
+		padding-top: 60px;
+	}
+
+
+	.modal-content {
+		background-color: #fefefe;
+		margin: 5% auto 15% auto; 
+		border: 1px solid #888;
+		width: 400px;
+	}
+
+
+	.animate {
+		-webkit-animation: animatezoom 0.6s;
+		animation: animatezoom 0.6s
+	}
+
+	@-webkit-keyframes animatezoom {
+		from {-webkit-transform: scale(0)} 
+		to {-webkit-transform: scale(1)}
+	}
+		
+	@keyframes animatezoom {
+		from {transform: scale(0)} 
+		to {transform: scale(1)}
+	}
+
+	@media screen and (max-width: 300px) {
+		span.psw {
+		   display: block;
+		   float: none;
+		}
+		.cancelbtn {
+		   width: 100%;
+		}
+	}

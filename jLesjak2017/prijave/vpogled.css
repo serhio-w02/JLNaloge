@@ -1,0 +1,110 @@
+	
+	#sidebar {
+		width: 15%;
+		height: 200%;
+		background-color: rgba(0, 0, 0, 0.1);
+		float: left;
+		margin-right: 10px;
+		margin-top: -10px;
+		display: inline-block;		
+	}
+		
+	#naVrh {
+		position: fixed;
+		bottom: 2%;
+		text-align: center;	
+		background-color: inherit;
+		left: 2%;
+		width: 10%;
+		border-radius: 5px;
+	}
+
+
+	#novMentor {
+		width: 50%;
+		display: inline;
+	}
+
+	#navbar {
+		height: 15%;
+		background-color: rgba(0, 0, 0, 0.25);
+	}
+
+	#sidebar div {
+		font-size: 18px;
+		text-align: center;
+		text-decoration: none;
+		font-size: 25px;
+		color: #818181;
+		display: block;
+		height: 50px;
+		
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+	}
+
+	#sidebar div:hover {
+	background-color: rgba(0, 0, 0, 0.25);
+	cursor: pointer;
+	}
+
+	
+
+	#tabelaPrijav td {
+		border-collapse: collapse;
+		border: 1px solid grey;
+		border-collapse: collapse;
+		padding: 7px;
+	}
+	
+	#tabelaPrijav_master td {
+		border: 1px solid grey;
+	}
+	
+	
+	#tableHeader {
+		font-weight: bold;
+		font-size: 18px;
+		border-bottom: 3px solid black;
+	}
+	
+	form {
+		margin: 10px;
+	}
+	
+	#seznam_mentorjev, #seznam_mentorjev td, #uporabniki_table, #uporabniki_table td{
+		border: none;
+		border-bottom: 1px solid black;
+		border-collapse: collapse;
+
+	}
+	
+	#seznam_mentorjev td:nth-child(3) {
+		text-align: right;
+	}
+	
+	#odjava {
+		cursor: pointer;
+		color: blue;
+		text-decoration: underline;
+	}
+
+
+	#uporabniki {
+		width: 75%;
+		min-width: 1000px;
+	}
+
+	input[type=text], select, input[type=password] {
+		padding: 6px 20px;
+		margin: 8px 0;
+		box-sizing: border-box;
+		border: 1px solid grey;
+		border-radius: 4px;
+	}
+
+
+
+
+
